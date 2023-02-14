@@ -3,6 +3,7 @@ Some programming examples in Rust
 
 ## Contents
 1. [Rust Programming Language](#rust-programming-language)
+1. [Installing Rust](#installing-rust)
 1. [Data Types](#data-types)
 2. [Variables](#variables)
 3. [Constant](#constant)
@@ -43,6 +44,17 @@ Software developer Graydon Hoare created Rust as a personal project while workin
 
 Go back to [Contents](#contents).
 
+## Installing Rust
+
+To download Rustup and install Rust on Linux, macOS, or another Unix-like OS, run the following in your terminal, then follow the on-screen instructions.
+
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+See [Other Installation Methods](https://forge.rust-lang.org/infra/other-installation-methods.html) if you are on Windows.
+
+Rust updates very frequently. If you have installed Rustup some time ago, chances are your Rust version is out of date. Get the latest version of Rust by running ```rustup update```.
 
 ## Data Types
 
