@@ -4,7 +4,7 @@ Some programming examples in Rust
 ## Contents
 1. [Rust Programming Language](#rust-programming-language)
 1. [Installing Rust](#installing-rust)
-1. [Cargo. The Rust build tool and package manager](#cargo.-the-rust-build-tool-and-package-manager)
+1. [Cargo-The Rust build tool and package manager](#cargo-the-rust-build-tool-and-package-manager)
 1. [Data Types](#data-types)
 2. [Variables](#variables)
 3. [Constant](#constant)
@@ -60,7 +60,7 @@ Rust updates very frequently. If you have installed Rustup some time ago, chance
 
 Go back to [Contents](#contents).
 
-## Cargo. The Rust build tool and package manager
+## Cargo-The Rust build tool and package manager
 
 Cargo is the Rust build tool and package manager. When you install Rustup you'll also get the latest stable version of the Rust build tool and package manager, also known as ```Cargo```. 
 
