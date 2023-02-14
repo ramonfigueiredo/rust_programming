@@ -39,7 +39,7 @@ The [Rust programming language] (https://www.rust-lang.org/) is a multi-paradigm
 
 Software developer Graydon Hoare created Rust as a personal project while working at Mozilla Research in 2006. Mozilla officially sponsored the project in 2009. Since the first stable release in May 2015, Rust has been adopted by companies including Amazon, Discord, Dropbox, Facebook (Meta), Google (Alphabet), and Microsoft. In 2022, Rust became the third programming language used in the Linux kernel, after C and Assembly language.
 
-* [Rust book](https://doc.rust-lang.org/book/)
+* [The Rust programming language's official book](https://doc.rust-lang.org/book/)
 
 Go back to [Contents](#contents).
 
