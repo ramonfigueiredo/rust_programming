@@ -31,7 +31,7 @@ Some programming examples in Rust
 
 ## Rust Programming Language
 
-The [Rust programming language] (https://www.rust-lang.org/) is a multi-paradigm, high-level, general-purpose programming language. Rust is popular for systems programming but also offers high-level features including some functional programming constructs.
+The [Rust programming language](https://www.rust-lang.org/) is a multi-paradigm, high-level, general-purpose programming language. Rust is popular for systems programming but also offers high-level features including some functional programming constructs.
 
 * Rust emphasizes performance, type safety, and concurrency. 
 	* Rust enforces memory safety (all references point to valid memory) without requiring the use of a garbage collector or reference counting present in other memory (safe languages).
