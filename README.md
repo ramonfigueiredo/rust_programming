@@ -3,33 +3,34 @@ Some programming examples in Rust
 
 ## Contents
 1. [Rust Programming Language](#rust-programming-language)
-1. [Installing Rust](#installing-rust)
-1. [Cargo-The Rust build tool and package manager](#cargo-the-rust-build-tool-and-package-manager)
-1. [Data Types](#data-types)
-2. [Variables](#variables)
-3. [Constant](#constant)
-4. [String](#string)
-5. [Operators](#operators)
-6. [Decision Making](#decision-making)
-7. [Loop](#loop)
-8. [Functions](#functions)
-9. [Tuple](#tuple)
-10. [Array](#array)
-11. [Ownership](#ownership)
-12. [Borrowing](#borrowing)
-13. [Slices](#slices)
-14. [Structure](#structure)
-15. [Enums](#enums)
-16. [Modules](#modules)
-17. [Collections](#collections)
-18. [Error Handling](#error-handling)
-19. [Generic Types](#generic-types)
-20. [Input Output](#input-output)
-21. [File Input/ Output](#file-Input-and-output)
-22. [Package Manager](#package-manager)
-23. [Iterator and Closure](#iterator-and-closure)
-24. [Smart Pointers](#smart-pointers)
-25. [Concurrency](#concurrency)
+2. [Installing Rust](#installing-rust)
+3. [Cargo-The Rust build tool and package manager](#cargo-the-rust-build-tool-and-package-manager)
+4. [Generating a new Rust project](#generating-a-new-rust-project)
+5. [Data Types](#data-types)
+6. [Variables](#variables)
+7. [Constant](#constant)
+8. [String](#string)
+9. [Operators](#operators)
+10. [Decision Making](#decision-making)
+11. [Loop](#loop)
+12. [Functions](#functions)
+13. [Tuple](#tuple)
+14. [Array](#array)
+15. [Ownership](#ownership)
+16. [Borrowing](#borrowing)
+17. [Slices](#slices)
+18. [Structure](#structure)
+19. [Enums](#enums)
+20. [Modules](#modules)
+21. [Collections](#collections)
+22. [Error Handling](#error-handling)
+23. [Generic Types](#generic-types)
+24. [Input Output](#input-output)
+25. [File Input/ Output](#file-Input-and-output)
+26. [Package Manager](#package-manager)
+27. [Iterator and Closure](#iterator-and-closure)
+28. [Smart Pointers](#smart-pointers)
+29. [Concurrency](#concurrency)
 
 ## Rust Programming Language
 
@@ -76,6 +77,51 @@ To test that you have Rust and Cargo installed, you can run this in your termina
 
 ```
 cargo --version
+```
+
+Go back to [Contents](#contents).
+
+## Generating a new Rust project
+
+To use ```Cargo``` to make a new project, run the following in your terminal:
+
+```
+cargo new your-project-name
+```
+
+where ```your-project-name``` is the name of your Rust project.
+
+This will generate a new directory called ```your-project-name``` with the following files:
+
+```
+your-project-name/
+├── Cargo.toml
+└── src
+    └── main.rs
+```
+
+* **Cargo.toml** is the manifest file for Rust. It's where you keep metadata for your project, as well as dependencies.
+* **src/main.rs** is where you write your application code.
+
+Commands:
+
+** ```cargo new``` generates a "Hello, world!" project for us! 
+
+To execute a Rust program, run the following in your terminal:
+
+```
+cargo run
+```
+
+You should see this in your terminal:
+
+```
+> cargo run --color=always
+    Finished dev [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/rust_tutorial`
+Hello, world!
+
+Process finished with exit code 0
 ```
 
 Go back to [Contents](#contents).
