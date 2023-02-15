@@ -7,6 +7,7 @@ Some programming examples in Rust
 3. [Cargo-The Rust build tool and package manager](#cargo-the-rust-build-tool-and-package-manager)
 4. [Generating a new Rust project](#generating-a-new-rust-project)
 5. [Adding Rust dependencies](#adding-rust-dependencies)
+6. [Macro and println](#macro-and-println)
 6. [Data Types](#data-types)
 7. [Variables](#variables)
 8. [Constant](#constant)
@@ -237,6 +238,21 @@ $ cargo run
 
 **Note:** [Ferris](https://rustacean.net/) is a crab and is an unofficial mascot for Rust. Ferris is a name playing off of the adjective, “ferrous,” meaning of or pertaining to iron.
 
+
+Go back to [Contents](#contents).
+
+## Macro and println
+
+Using the ```println!``` macro syntax:
+
+```
+println!(); // prints just a newline
+println!("hello "); //prints hello
+println!("format {} arguments", "some"); //prints format some arguments
+```
+
+Rust provides a powerful macro system that allows meta-programming. 
+As you have seen in the previous example, macros look like functions, except that their name ends with a bang(!), but instead of generating a function call, macros are expanded into source code that gets compiled with the rest of the program. Therefore, they provide more runtime features to a program unlike functions. Macros are an extended version of functions.
 
 Go back to [Contents](#contents).
 
