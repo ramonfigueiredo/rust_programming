@@ -174,6 +174,12 @@ fn main() {
 }
 ```
 
+To run the Rust application, type:
+
+```
+cargo run
+```
+
 Output:
 
 ```
