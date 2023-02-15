@@ -39,6 +39,13 @@ The [Rust programming language](https://www.rust-lang.org/) is a multi-paradigm,
 
 Graydon Hoare (a software developer) created Rust as a personal project while working at Mozilla Research in 2006. Mozilla officially sponsored the project in 2009. Since the first stable release in May 2015, Rust has been adopted by companies including Amazon, Discord, Dropbox, Facebook (Meta), Google (Alphabet), and Microsoft. In 2022, Rust became the third programming language used in the Linux kernel, after C and Assembly language.
 
+* [Rust website](https://www.rust-lang.org/)
+* [Getting started with Rust](https://www.rust-lang.org/learn/get-started): Quickly set up a Rust development environment and write a small app.
+* [Rust playground](https://play.rust-lang.org/): A browser interface to the Rust compiler to experiment with the language.
+* [The Rust programming language's official book](https://doc.rust-lang.org/book/)
+
+**Note:** Rustaceans are people who use Rust, contribute to Rust, or are interested in the development of Rust.
+
 ### Application versus Systems Programming Languages
 
 Application programming languages like Java or C# are used to build software, which provide services to the user directly. They help us build business applications like spreadsheets, word processors, web applications or mobile applications.
@@ -62,13 +69,6 @@ The Rust language was designed for developing highly reliable and fast software 
 **Multi-threaded applications:** Rust's ownership and memory safety rules provide concurrency without data races.
 
 **Support for Web Assembly (WASM):** Web Assembly helps to execute high computation intensive algorithms in the browser, on embedded devices, or anywhere else. It runs at the speed of native code. Rust can be compiled to Web Assembly for fast, reliable execution.
-
-**Note:** Rustaceans are people who use Rust, contribute to Rust, or are interested in the development of Rust.
-
-
-* [Getting started with Rust](https://www.rust-lang.org/learn/get-started): Quickly set up a Rust development environment and write a small app.
-* [Rust playground](https://play.rust-lang.org/): A browser interface to the Rust compiler to experiment with the language.
-* [The Rust programming language's official book](https://doc.rust-lang.org/book/)
 
 Go back to [Contents](#contents).
 
