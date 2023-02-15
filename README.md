@@ -6,31 +6,32 @@ Some programming examples in Rust
 2. [Installing Rust](#installing-rust)
 3. [Cargo-The Rust build tool and package manager](#cargo-the-rust-build-tool-and-package-manager)
 4. [Generating a new Rust project](#generating-a-new-rust-project)
-5. [Data Types](#data-types)
-6. [Variables](#variables)
-7. [Constant](#constant)
-8. [String](#string)
-9. [Operators](#operators)
-10. [Decision Making](#decision-making)
-11. [Loop](#loop)
-12. [Functions](#functions)
-13. [Tuple](#tuple)
-14. [Array](#array)
-15. [Ownership](#ownership)
-16. [Borrowing](#borrowing)
-17. [Slices](#slices)
-18. [Structure](#structure)
-19. [Enums](#enums)
-20. [Modules](#modules)
-21. [Collections](#collections)
-22. [Error Handling](#error-handling)
-23. [Generic Types](#generic-types)
-24. [Input Output](#input-output)
-25. [File Input/ Output](#file-Input-and-output)
-26. [Package Manager](#package-manager)
-27. [Iterator and Closure](#iterator-and-closure)
-28. [Smart Pointers](#smart-pointers)
-29. [Concurrency](#concurrency)
+5. [Adding Rust dependencies](#adding-rust-dependencies)
+6. [Data Types](#data-types)
+7. [Variables](#variables)
+8. [Constant](#constant)
+9. [String](#string)
+10. [Operators](#operators)
+11. [Decision Making](#decision-making)
+12. [Loop](#loop)
+13. [Functions](#functions)
+14. [Tuple](#tuple)
+15. [Array](#array)
+16. [Ownership](#ownership)
+17. [Borrowing](#borrowing)
+18. [Slices](#slices)
+19. [Structure](#structure)
+20. [Enums](#enums)
+21. [Modules](#modules)
+22. [Collections](#collections)
+23. [Error Handling](#error-handling)
+24. [Generic Types](#generic-types)
+25. [Input Output](#input-output)
+26. [File Input/ Output](#file-Input-and-output)
+27. [Package Manager](#package-manager)
+28. [Iterator and Closure](#iterator-and-closure)
+29. [Smart Pointers](#smart-pointers)
+30. [Concurrency](#concurrency)
 
 ## Rust Programming Language
 
@@ -123,6 +124,43 @@ Hello, world!
 
 Process finished with exit code 0
 ```
+
+Go back to [Contents](#contents).
+
+## Adding Rust dependencies
+
+In Rust, we often refer to packages as "crates". The package registry for Rust is available on [crates.io](https://crates.io/).
+
+To add a dependency to your Rust application, change the ```Cargo.toml``` file.
+
+For example, you can use a crate called ```ferris-says```.
+
+In your ```Cargo.toml``` file, add this information:
+
+```
+[dependencies]
+ferris-says = "0.2"
+```
+
+Now we can run:
+
+```
+cargo build
+```
+
+...and Cargo will install the dependency.
+
+By running the command above created, ```cargo``` creates a new file: Cargo.lock.
+
+* **Cargo.lock**: This file is a log of the exact versions of the dependencies we are using locally.
+
+To use this dependency, we can open main.rs, remove everything that’s in there (it’s just another example), and add this line to it:
+
+```
+use ferris_says::say;
+```
+
+This line means that we can now use the say function that the ferris-says crate exports for us.
 
 Go back to [Contents](#contents).
 
