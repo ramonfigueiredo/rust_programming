@@ -200,7 +200,7 @@ $ cargo run
           / '-----' \
 ```
 
-**Note:** [Ferris](https://rustacean.net/) is a crab and is an unofficial mascot for Rust.
+**Note:** [Ferris](https://rustacean.net/) is a crab and is an unofficial mascot for Rust. Ferris is a name playing off of the adjective, “ferrous,” meaning of or pertaining to iron.
 
 
 Go back to [Contents](#contents).
