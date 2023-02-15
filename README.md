@@ -44,7 +44,9 @@ Graydon Hoare (a software developer) created Rust as a personal project while wo
 * [Rust website](https://www.rust-lang.org/)
 * [Getting started with Rust](https://www.rust-lang.org/learn/get-started): Quickly set up a Rust development environment and write a small app.
 * [Rust playground](https://play.rust-lang.org/): A browser interface to the Rust compiler to experiment with the language.
-* [The Rust programming language's official book](https://doc.rust-lang.org/book/)
+* [The Rust programming language's official book](https://doc.rust-lang.org/book/): The Rust Programming Language will give you an overview of the language from first principles. You’ll build a few projects along the way, and by the end, you’ll have a solid grasp of the language.
+* [Rust by examples](https://doc.rust-lang.org/stable/rust-by-example/): Rust by Examples (RBE) shows off a bunch of code, and keeps the text to a minimum. It also includes exercises!
+* [Rustlings course](https://github.com/rust-lang/rustlings/): Rustlings guides you through downloading and setting up the Rust toolchain, and teaches you the basics of reading and writing Rust syntax, on the command line. It's an alternative to Rust by Example that works with your own environment.
 * [crates.io](https://crates.io/): The package registry for Rust.
 
 **Note:** Rustaceans are people who use Rust, contribute to Rust, or are interested in the development of Rust.
