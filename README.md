@@ -47,7 +47,7 @@ Graydon Hoare (a software developer) created Rust as a personal project while wo
 
 **Note:** Rustaceans are people who use Rust, contribute to Rust, or are interested in the development of Rust.
 
-### Application versus Systems Programming Languages
+### Application programming languages versus Systems programming languages
 
 Application programming languages like Java or C# are used to build software, which provide services to the user directly. They help us build business applications like spreadsheets, word processors, web applications or mobile applications.
 
