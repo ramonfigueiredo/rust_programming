@@ -148,19 +148,48 @@ Now we can run:
 cargo build
 ```
 
-...and Cargo will install the dependency.
+...and ```Cargo``` will install the dependency.
 
 By running the command above created, ```cargo``` creates a new file: Cargo.lock.
 
 * **Cargo.lock**: This file is a log of the exact versions of the dependencies we are using locally.
 
-To use this dependency, we can open main.rs, remove everything that’s in there (it’s just another example), and add this line to it:
+To use this dependency, open main.rs and use the ```use ferris_says::say;```:
 
 ```
 use ferris_says::say;
+use std::io::{stdout, BufWriter};
+
+fn main() {
+    let stdout = stdout();
+    let message = String::from("Hello fellow Rustaceans!");
+    let width = message.chars().count();
+
+    let mut writer = BufWriter::new(stdout.lock());
+    say(message.as_bytes(), width, &mut writer).unwrap();
+}
 ```
 
-This line means that we can now use the say function that the ferris-says crate exports for us.
+Output:
+
+```
+$ cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/rust_programming`
+ __________________________
+< Hello fellow Rustaceans! >
+ --------------------------
+        \
+         \
+            _~^~^~_
+        \) /  o o  \ (/
+          '_   -   _'
+          / '-----' \
+```
+
+
+
+This line means that we can now use the ```say``` function that the ```ferris-says``` crate exports.
 
 Go back to [Contents](#contents).
 
