@@ -37,11 +37,31 @@ Some programming examples in Rust
 
 The [Rust programming language](https://www.rust-lang.org/) is a multi-paradigm, high-level, general-purpose programming language. Rust is popular for systems programming but also offers high-level features including some functional programming constructs. Rust runs really fast like C and C++, prevents almost all crashes, and eliminates data races. Rust is intended to be a language for highly concurrent and highly secure systems.
 
-* Rust emphasizes performance, type safety, and concurrency. 
-	* Rust enforces memory safety (all references point to valid memory) without requiring the use of a garbage collector or reference counting present in other memory (safe languages).
-	* To simultaneously enforce memory safety and prevent concurrent data races, Rust's "borrow checker" tracks the object lifetime of all references in a program during compilation. 
+Graydon Hoare (a software developer) created Rust as a personal project while working at Mozilla Research in 2006. Mozilla officially sponsored the project in 2009. Since the first stable release in May 2015, Rust has been adopted by companies including Amazon, Discord, Dropbox, Facebook (Meta), Google (Alphabet), and Microsoft. In 2022, Rust became the third programming language used in the Linux kernel, after C and Assembly language.
 
-Software developer Graydon Hoare created Rust as a personal project while working at Mozilla Research in 2006. Mozilla officially sponsored the project in 2009. Since the first stable release in May 2015, Rust has been adopted by companies including Amazon, Discord, Dropbox, Facebook (Meta), Google (Alphabet), and Microsoft. In 2022, Rust became the third programming language used in the Linux kernel, after C and Assembly language.
+### Application versus Systems Programming Languages
+
+Application programming languages like Java or C# are used to build software, which provide services to the user directly. They help us build business applications like spreadsheets, word processors, web applications or mobile applications.
+
+Systems programming languages like Rust, C, and C++ are used to build software and software platforms. They can be used to build operating systems, game engines, compilers, etc. These programming languages require a great degree of hardware interaction.
+
+Systems and application programming languages face two major problems:
+- It is difficult to write secure code.
+- It is difficult to write multi-threaded code.
+
+### Rust
+
+Rust focuses on three goals: 1) safety, 2) speed, 3) concurrency.
+
+The Rust language was designed for developing highly reliable and fast software in a simple way. Rust can be used to write high-level programs down to hardware-specific programs.
+
+**Performance:** Rust programming language does not have a Garbage Collector (GC) by design. This improves the performance at runtime.
+
+**Memory safety at compile time:** Software built using Rust is safe from memory issues like dangling pointers, buffer overruns and memory leaks.
+
+**Multi-threaded applications:** Rust's ownership and memory safety rules provide concurrency without data races.
+
+**Support for Web Assembly (WASM):** Web Assembly helps to execute high computation intensive algorithms in the browser, on embedded devices, or anywhere else. It runs at the speed of native code. Rust can be compiled to Web Assembly for fast, reliable execution.
 
 **Note:** Rustaceans are people who use Rust, contribute to Rust, or are interested in the development of Rust.
 
