@@ -43,6 +43,7 @@ Graydon Hoare (a software developer) created Rust as a personal project while wo
 * [Getting started with Rust](https://www.rust-lang.org/learn/get-started): Quickly set up a Rust development environment and write a small app.
 * [Rust playground](https://play.rust-lang.org/): A browser interface to the Rust compiler to experiment with the language.
 * [The Rust programming language's official book](https://doc.rust-lang.org/book/)
+* [crates.io](https://crates.io/): The package registry for Rust.
 
 **Note:** Rustaceans are people who use Rust, contribute to Rust, or are interested in the development of Rust.
 
