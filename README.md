@@ -156,6 +156,10 @@ By running the command above created, ```cargo``` creates a new file: Cargo.lock
 
 To use this dependency, open main.rs and use the ```use ferris_says::say;```:
 
+This line means that we can now use the ```say``` function that the ```ferris-says``` crate exports.
+
+Code example using ```ferris-says```.
+
 ```
 use ferris_says::say;
 use std::io::{stdout, BufWriter};
@@ -187,9 +191,8 @@ $ cargo run
           / '-----' \
 ```
 
+**Note:** [Ferris](https://rustacean.net/) is a crab and is an unofficial mascot for Rust.
 
-
-This line means that we can now use the ```say``` function that the ```ferris-says``` crate exports.
 
 Go back to [Contents](#contents).
 
