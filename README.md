@@ -67,6 +67,7 @@ The Rust language was designed for developing highly reliable and fast software 
 
 
 * [Getting started with Rust](https://www.rust-lang.org/learn/get-started): Quickly set up a Rust development environment and write a small app.
+* [Rust playground](https://play.rust-lang.org/): A browser interface to the Rust compiler to experiment with the language.
 * [The Rust programming language's official book](https://doc.rust-lang.org/book/)
 
 Go back to [Contents](#contents).
