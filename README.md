@@ -79,6 +79,19 @@ To download Rustup and install Rust on Linux, macOS, or another Unix-like OS, ru
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
+The installation script automatically adds Rust to your system PATH after your next login. 
+To start using Rust right away instead of restarting your terminal, run the following command in your terminal to add Rust to your system PATH manually.
+
+```
+source $HOME/.cargo/env
+```
+
+Alternatively, you can add the following line to your ~/.bash_profile −
+
+```
+export PATH="$HOME/.cargo/bin:$PATH"
+```
+
 See [Other Installation Methods](https://forge.rust-lang.org/infra/other-installation-methods.html) if you are on Windows.
 
 Rust updates very frequently. If you have installed Rustup some time ago, chances are your Rust version is out of date. Get the latest version of Rust by running ```rustup update```.
