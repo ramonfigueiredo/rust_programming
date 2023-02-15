@@ -2,7 +2,7 @@ Some programming examples in Rust
 ===========================
 
 ## Contents
-1. [Rust Programming Language](#rust-programming-language)
+1. [The Rust programming language](#the-rust-programming-language)
 2. [Installing Rust](#installing-rust)
 3. [Cargo-The Rust build tool and package manager](#cargo-the-rust-build-tool-and-package-manager)
 4. [Generating a new Rust project](#generating-a-new-rust-project)
@@ -33,7 +33,7 @@ Some programming examples in Rust
 29. [Smart Pointers](#smart-pointers)
 30. [Concurrency](#concurrency)
 
-## Rust Programming Language
+## The Rust programming language
 
 The [Rust programming language](https://www.rust-lang.org/) is a multi-paradigm, high-level, general-purpose programming language. Rust is popular for systems programming but also offers high-level features including some functional programming constructs. Rust runs really fast like C and C++, prevents almost all crashes, and eliminates data races. Rust is intended to be a language for highly concurrent and highly secure systems.
 
